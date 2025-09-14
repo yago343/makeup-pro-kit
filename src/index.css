@@ -2,39 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Makeup Artist Professional Design System */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Base colors inspired by makeup tones */
+    --background: 28 100% 97%;
+    --foreground: 20 20% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Card colors with warm undertones */
+    --card: 28 50% 98%;
+    --card-foreground: 20 20% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 28 50% 98%;
+    --popover-foreground: 20 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Deep brown elegance */
+    --primary: 20 40% 20%;
+    --primary-foreground: 28 100% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Soft nude */
+    --secondary: 25 30% 85%;
+    --secondary-foreground: 20 40% 20%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted: Warm neutral */
+    --muted: 25 20% 90%;
+    --muted-foreground: 20 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Rose blush */
+    --accent: 350 50% 80%;
+    --accent-foreground: 20 40% 20%;
+
+    /* Makeup inspired colors */
+    --rose-blush: 350 60% 75%;
+    --nude-base: 25 40% 85%;
+    --warm-brown: 20 35% 25%;
+    --deep-brown: 20 40% 15%;
+    --soft-pink: 340 45% 88%;
+    --elegant-black: 0 0% 8%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(350 60% 75%), hsl(25 40% 85%), hsl(20 35% 25%));
+    --gradient-section: linear-gradient(180deg, hsl(28 100% 97%), hsl(25 30% 95%));
+    --gradient-card: linear-gradient(145deg, hsl(350 60% 75% / 0.1), hsl(25 40% 85% / 0.2));
+    --gradient-button: linear-gradient(135deg, hsl(350 60% 65%), hsl(20 35% 25%));
+    --gradient-button-hover: linear-gradient(135deg, hsl(350 70% 60%), hsl(20 45% 20%));
+
+    /* Shadows with warm tones */
+    --shadow-elegant: 0 10px 40px -10px hsl(20 35% 25% / 0.2);
+    --shadow-card: 0 4px 20px -4px hsl(350 60% 75% / 0.15);
+    --shadow-button: 0 8px 25px -8px hsl(350 60% 65% / 0.4);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 25 20% 88%;
+    --input: 25 20% 88%;
+    --ring: 350 60% 75%;
 
     --radius: 0.5rem;
 

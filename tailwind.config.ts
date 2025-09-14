@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Makeup-inspired color palette
+        "rose-blush": "hsl(var(--rose-blush))",
+        "nude-base": "hsl(var(--nude-base))",
+        "warm-brown": "hsl(var(--warm-brown))",
+        "deep-brown": "hsl(var(--deep-brown))",
+        "soft-pink": "hsl(var(--soft-pink))",
+        "elegant-black": "hsl(var(--elegant-black))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +64,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-section": "var(--gradient-section)",
+        "gradient-card": "var(--gradient-card)",
+        "gradient-button": "var(--gradient-button)",
+        "gradient-button-hover": "var(--gradient-button-hover)",
+      },
+      boxShadow: {
+        "elegant": "var(--shadow-elegant)",
+        "card": "var(--shadow-card)",
+        "button": "var(--shadow-button)",
       },
       borderRadius: {
         lg: "var(--radius)",
